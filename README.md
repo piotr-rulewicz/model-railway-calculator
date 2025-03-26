@@ -29,4 +29,5 @@ Enter the real-world measurement in meters, select the desired model scale, and 
 This project is open-source and available under the MIT License.
 
 ## Author
+
 Created by Piotr Rulewicz
