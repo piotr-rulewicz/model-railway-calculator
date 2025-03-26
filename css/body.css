@@ -1,0 +1,12 @@
+.body {
+    max-width: 1920px;
+    max-height: 1080px;
+    padding: 0 100px;
+    background-image: url("../img/background_main.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: local;
+    font-family: "Red Hat Display", sans-serif, monospace;
+    font-size: 1.5rem;
+}

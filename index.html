@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="#">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=train" />
+    <link rel="stylesheet" href="css/style-reset.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script defer src="js/script.js"></script>
+
+    <title>MRC | Model Railway Calculator</title>
+
+</head>
+
+<body class="body">
+    <main class="main">
+        <div class="main__form">
+            <form id="form">
+                <p class="main__form--paragraph">
+                    <label for="inputDimension">Enter dimension (in meters):
+                        <input class="main__form--input" id="inputDimension" type="number" name="number" min="0.08"
+                            max="9999.99" step="0.01" placeholder="e.g. 1,23" required>
+                    </label>
+                </p>
+                <p class="main__form--paragraph">
+                    <label for="selectedScale">Choose a scale:
+                        <select class="main__form--select" id="selectedScale" name="selectedScale">
+                            <option value="h0">H0 scale</option>
+                            <option value="tt">TT scale</option>
+                            <option value="nn">NN scale</option>
+                        </select>
+                    </label>
+                </p>
+                <p><input class="main__form--submitButton" type="submit" value="Calculate"></p>
+                <p><input class="main__form--resetButton" id="resetButton" type="reset" value="Reset form">
+                </p>
+            </form>
+        </div>
+        <div class="main__result">
+            <p>Result after rescaling:&nbsp;<span class="main__result--result" id="resultAfterRescaling">0</span><span
+                    class="main__result--result">mm</span></p>
+        </div>
+        <footer class="main__footer">
+            <p class="main__footer--smallerParagraph">
+                &copy; code by pi.ru. in march 2025
+            </p>
+            <p class="main__footer--smallerParagraph">
+                &copy; photo by juloo in february 2025
+            </p>
+            <p>
+                <span class="material-symbols-outlined">
+                    train
+                </span>&nbsp;&nbsp;Enjoy!&nbsp;&nbsp;<span class="material-symbols-outlined">
+                    train
+                </span>
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>

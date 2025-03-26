@@ -1,0 +1,66 @@
+.main {
+    max-width: 75%;
+    background-color: rgba(255, 255, 255, 0.250);
+    border: 1px solid white;
+    margin: 100px auto;
+}
+
+.main__form {
+    font-weight: 700;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.main__form--paragraph {
+    margin-right: calc(50% - 75px);
+    text-align: right;
+}
+
+.main__form--submitButton,
+.main__form--resetButton {
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px;
+}
+
+.main__form--submitButton:hover,
+.main__form--resetButton:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.main__form--input,
+.main__form--select {
+    width: 130px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    padding: 3px;
+}
+
+.main__result {
+    font-weight: 700;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.main__result--result {
+    color: red;
+    font-weight: 700;
+}
+
+.main__footer {
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.main__footer--smallerParagraph {
+    font-size: 0.8rem;
+}
+
+.material-symbols-outlined {
+    font-size: 2rem;
+}
