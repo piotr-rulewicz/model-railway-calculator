@@ -13,9 +13,6 @@
             const userInputDimension = inputDimension.value;
             const userSelectedScale = selectedScale.value;
 
-            console.log(userInputDimension);
-            console.log(userSelectedScale);
-
             let rescaling;
 
             if (userSelectedScale === "h0") {
