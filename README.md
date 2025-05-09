@@ -30,5 +30,4 @@ This project is open-source and available under the MIT License.
 
 ## Author
 
-Created by Piotr Rulewicz
-Photo by Juliusz Rulewicz
+Created by Piotr Rulewicz & Photo by Juliusz Rulewicz
